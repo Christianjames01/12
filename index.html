@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeral Nexus</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#history">History</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="home">
+        <div class="hero">
+            <div class="numeral-container">
+                <span>My Hero Academia</span>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn-red" onclick="changeBackgroundColor('#e74c3c')">Red</button>
+                <button class="btn-green" onclick="changeBackgroundColor('#2ecc71')">Green</button>
+                <button class="btn-blue" onclick="changeBackgroundColor('#3498db')">Blue</button>
+            </div>
+        </div>
+        <section id="about" class="about">
+            <h2>About My Hero Academia</h2>
+            <p>"My Hero Academia" is a popular manga and anime series created by Kohei Horikoshi. Set in a world where nearly everyone has superpowers known as "Quirks," the story follows Izuku Midoriya, a boy born without a Quirk who still dreams of becoming a hero. After inheriting the powerful Quirk, One For All, from the legendary hero All Might, Izuku enrolls in U.A. High School to train and become the greatest hero. The series explores themes of heroism, friendship, and perseverance, and is known for its compelling characters and intense action sequences.</p>
+        </section>
+        <section id="features" class="features">
+            <h2>My Hero Academia (Japanese: 僕のヒーローアカデミア, Hepburn: Boku no Hīrō Akademia) is a Japanese manga series written and illustrated by Kōhei Horikoshi. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from July 2014 to August 2024, with its chapters collected in 41 tankōbon volumes as of August 2024. Set in a world where superpowers (called "Quirks") have become commonplace, the story follows Izuku Midoriya, a boy who was born without a Quirk but still dreams of becoming a superhero himself. He is scouted by the world's greatest hero, All Might, who bestows his Quirk to Midoriya after recognizing his potential, and helps to enroll him in a prestigious high school for superheroes in training.
+
+                The manga spawned a media franchise, having inspired numerous spin-off manga, such as My Hero Academia: Smash!!, My Hero Academia: Vigilantes, and My Hero Academia: Team-Up Missions. The series has expanded into light novels, stage plays, and various types of merchandise and media, including numerous video games. It has also been adapted into an anime television series by Bones. The first season aired in Japan from April to June 2016, followed by a second season from April to September 2017, then a third season from April to September 2018, a fourth season from October 2019 to April 2020, a fifth season from March to September 2021, a sixth season from October 2022 to March 2023, and a seventh season which premiered in May 2024. It has also received four animated films, titled My Hero Academia: Two Heroes, My Hero Academia: Heroes Rising, My Hero Academia: World Heroes' Mission, and My Hero Academia: You're Next, and nine original video animations (OVAs). A live-action film by Legendary Entertainment is in development.
+                
+                My Hero Academia has become a commercial success, appearing on The New York Times best-seller list several times. By April 2024, the manga had over 100 million copies in circulation including sales of spin-offs, making it one of the best-selling manga series of all time. Critical reception has also been positive with reviewers praising the manga for its art, characters, storytelling, action scenes, and the use of pop culture references to Western superhero comics; the anime series has received additional praise for its animation quality and faithful adaptation of the source material.</h2>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; My ADV</p>
+    </footer>
+
+    <script>
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

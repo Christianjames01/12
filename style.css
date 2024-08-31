@@ -1,0 +1,106 @@
+<style>
+body {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to the body text */
+    margin: 0;
+    padding: 0;
+    padding-top: 4rem; /* Adjust this value if the header height changes */
+    padding-bottom: 4rem; /* Adjust this value if the footer height changes */
+    background-image: url('https://wall.alphacoders.com/big.php?i=941908');
+    background-size: cover; /* Make sure the image covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    transition: background-color 0.5s ease; /* Smooth transition for background color changes */
+}
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent header background */
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font to the header */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 2rem; /* Increase the space between navigation items */
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* Add padding to the links for better spacing and clickability */
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    position: relative; /* Make it relative so the buttons can be absolutely positioned */
+    background-color: rgba(244, 244, 244, 0.8); /* Semi-transparent hero background */
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font to hero text */
+}
+.hero-buttons {
+    position: absolute;
+    top: 1rem; /* Adjust the space from the top */
+    right: 1rem; /* Adjust the space from the right */
+}
+.hero-buttons button {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to buttons */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.hero-buttons button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+.btn-red { background-color: #e74c3c; }
+.btn-green { background-color: #2ecc71; }
+.btn-blue { background-color: #3498db; }
+.numeral-container span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.features, .testimonials, .about {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+}
+.features h2, .about h2 {
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font to section headings */
+}
+.testimonials blockquote, .about p {
+    border-left: 4px solid #333;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to blockquotes and paragraphs */
+}
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent footer background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font to footer */
+}
+</style>
